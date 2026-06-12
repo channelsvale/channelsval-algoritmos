@@ -1,0 +1,55 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminología audio</title>
+    <link rel="stylesheet" href="taudio.css">
+</head>
+<body>
+<h1>Terminología del Formato de audio</h1>
+    <div class="contenido">
+        
+
+        <p>Entender los formatos de audio digital requiere familiarizarse con varios términos técnicos clave que definen cómo se digitaliza, almacena y reproduce el sonido.  </p>
+		
+		<h2>Conceptos Clave de Digitalización (IV.4.8 Terminología)</h2>
+		
+		<p>Estos términos explican la conversión del sonido analógico a datos digitales, proceso conocido como Modulación por Impulsos Codificados (PCM).  </p>
+
+        <ul>
+            <li><strong>Frecuencia de Muestreo (Sample Rate): </strong>Define cuántas veces por segundo se "toma una muestra" de la señal de audio analógica para convertirla en datos digitales. Se mide en Hercios (Hz) o Kilohertz (kHz). Una frecuencia estándar de CD es 44.1 kHz (44,100 muestras por segundo), mientras que el audio de alta resolución puede usar 96 kHz o 192 kHz. Una tasa más alta captura un rango de frecuencias más amplio.</li>
+			<li><strong>Profundidad de Bits (Bit Depth / Resolución):</strong>Indica la cantidad de bits utilizados para almacenar la información de amplitud (volumen) de cada muestra individual. Determina el rango dinámico (la diferencia entre el sonido más suave y el más fuerte) y la precisión de la señal. El estándar de CD es de 16 bits, ofreciendo un rango dinámico excelente; 24 bits se usa comúnmente en producción de estudio para una mayor flexibilidad. </li>
+			<li><strong>Velocidad de Bits (Bitrate):</strong>Es la cantidad de datos (bits) que se procesan por unidad de tiempo, generalmente medida en kilobits por segundo (kbps). En formatos comprimidos, un bitrate más alto generalmente significa mayor calidad de audio, pero también un archivo más grande. <ul>
+				<li><strong>CBR (Constant Bitrate): </strong>Mantiene una tasa de bits fija durante toda la duración del audio.</li>
+				<li><strong>VBR (Variable Bitrate): </strong> La tasa de bits cambia dinámicamente, usando más datos en pasajes complejos (con muchos instrumentos o cambios rápidos) y menos en pasajes silenciosos, optimizando el tamaño del archivo sin sacrificar calidad percibida. </li>
+				
+				</ul> </li>
+        </ul>
+		
+		<h2>Tipos de Compresión y Formatos (IV.4.10, IV.4.11, IV.4.12)</h2>
+		 <ul>
+            <li><strong>Códec (Codec): </strong> Abreviatura de "codificador/decodificador". Es el algoritmo de software o hardware utilizado para comprimir y descomprimir un archivo de audio.</li>
+            <li><strong>Audio Sin Comprimir:</strong> Almacenamiento directo de los datos PCM. Ocupa mucho espacio pero ofrece la máxima fidelidad posible.<ul>
+				<li><strong>Formatos: </strong>WAV (popular en Windows) y AIFF (popular en macOS/Apple).</li>
+				
+				
+				</ul></li>
+            <li><strong>Audio Con Compresión Sin Pérdida (Lossless): </strong>  Reduce el tamaño del archivo sin eliminar permanentemente ningún dato de audio; la señal original puede reconstruirse perfectamente.<ul>
+				<li><strong>Formatos: </strong>FLAC (Free Lossless Audio Codec) y ALAC (Apple Lossless Audio Codec).</li>
+				
+				
+				</ul></li>
+			  <li><strong>Audio Con Compresión Con Pérdida (Lossy):</strong>  Reduce drásticamente el tamaño del archivo eliminando datos de audio que se consideran inaudibles para el oído humano (basado en psicoacústica). <ul>
+				<li><strong>Formatos: </strong>MP3 (el formato más universal), AAC (común en Apple y streaming), Ogg Vorbis. </li>
+				
+				
+				</ul></li>
+           
+        </ul>
+
+        <img src="imagenes/taudio.jpg" alt="Ondas de audio" class="imagen">
+    </div>
+
+</body>
+</html>
+

@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 150px;
+	
+	background-image:url('imagenes/fotografia.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	text-align: justify;
+	color:white;
+}
+header{
+	font-family:codelight;
+	font-size:50px;
+	text-align: center;
+	font-weight: bold;
+	padding:50px;
+color:white;
+
+}
+p{
+	color:white;
+}
+br{
+	color:white;
+}
+font{
+	color:white;
+}
+
+footer{
+	padding:200px;
+	text-align: center;
+	color:white;
+}
+

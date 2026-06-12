@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	
+	background-image:url('propiedades.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	text-align: justify;
+}
+p{
+	color:black;
+	text-align: justify;
+}
+br{
+	color:black;
+	text-align: justify;
+}
+font{
+	color:black;
+	text-align: justify;
+}

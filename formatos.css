@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 150px;
+	
+	background-image:url('imagenes/formatos.png');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	text-align: justify;
+	color:black;
+}
+header{
+	font-family:codelight;
+	font-size:50px;
+	text-align: center;
+	font-weight: bold;
+	padding:50px;
+color:black;
+
+}
+p{
+	color:black;
+}
+br{
+	color:black;
+}
+font{
+	color:black;
+}
+
+footer{
+	padding:50px;
+	text-align: center;
+	color:black;
+}
+

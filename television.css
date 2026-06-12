@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	
+	background-image:url('television.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}

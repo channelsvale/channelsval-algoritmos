@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 200px;
+	
+	background-image:url('digital.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	text-align: justify;
+}
+header{
+	font-family:codelight;
+	font-size:50px;
+	text-align: center;
+	font-weight: bold;
+
+
+}
+p{
+	color:black;
+}
+br{
+	color:black;
+}
+font{
+	color:black;
+}
